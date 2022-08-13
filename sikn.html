@@ -4,74 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[title치환자]</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>[##_title_##]</title>
 </head>
 <body>
-    <div id="wrap">
-        <header>
-            <div id="headerAera">
-                <div class="top">
-                    <a href="#">[href 치환자]
-                        <img src="https://via.placeholder.com/1084X300" alt="">
-                    </a>
-                </div>
-            </div>
-        </header>
-        <div id="content_rep">
-            <!-- 리스트 영역 -->
-            <div class="postList">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <div class="thumb">
-                                <img src="" alt="">
-                            </div>
-                            <span class="listTitle">title</span>
-                            <span class="listData">data</span>
+    <s_t3>
+        <div id="wrap">
+            <header>
+                <div id="headerAera">
+                    <div class="top">
+                        <a href="[##_blog_link_##]">
+                            <img src="https://via.placeholder.com/1050X300" alt="toplogo">
                         </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- //리스트 영역 -->
-            <!-- 본문 영역 -->
-            <article>
-                <div class="titleArea">
-                    <small>day-date</small>
-                    <span class="title">Title</span>
-                    <span>
-                        <a href="#">❤︎</a>
-                        <a href="#">✦</a>
-                    </span>
+                    </div>
                 </div>
-                <div class="desc">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea tempora nisi amet nemo fugit iusto quia voluptates doloribus laboriosam ratione! Perspiciatis laboriosam saepe quisquam nesciunt enim consectetur quae similique. Nihil, doloribus esse. Qui unde, corporis, omnis ad distinctio aperiam, repellendus facere debitis dicta voluptate ratione? Voluptates quis adipisci dolor voluptatum ipsam consequatur veritatis ducimus eum repellat recusandae debitis aut possimus incidunt dolores sunt exercitationem, consectetur nostrum. Culpa perferendis dolore, vero sint dolorum officia in autem repellat saepe ratione maiores, ea architecto, provident nostrum aperiam natus. Quidem doloribus dolores molestiae unde laudantium similique repudiandae atque est nobis, minus officia, deleniti distinctio.</p>
+                <div class="cate">
+                    <nav>
+                        <ul>
+                            <li><a href="/category/1">☾</a></li>
+                        </ul>
+                    </nav>
                 </div>
-            </article>
-            <!-- //본문 영역 -->
-            <!-- 댓글영역 -->
-            <div class="comment">
-                <h3>댓글을 달아 주세요</h3>
-                <div class="commentList">리스트</div>
-                <div class="commentWrite">글쓰기</div>
+            </header>
+            <div id="contentArea">
+                <s_article_rep>
+                    <!-- 인덱스 영역 -->
+                    <s_index_article_rep>
+                        <article class="indexArea">
+                            <div class="thumb">
+                                <a href="[##_article_rep_link_##]">
+                                    <s_article_rep_thumbnail>
+                                        <span class="thumb-img">
+                                            <img src="//i1.daumcdn.net/thumb/C135x135/?fname=[##_article_rep_thumbnail_raw_url_##]">
+                                        </span>
+                                    </s_article_rep_thumbnail>
+                                    <div class="thumb-info">
+                                        <li>[##_article_rep_title_##]</li>
+                                        <li>[##_article_rep_simple_date_##]</li>
+                                    </div>
+                                </a>
+                            </div>
+                        </article>
+                    </s_index_article_rep>
+                    <!-- //인덱스 영역 -->
+                    <s_permalink_article_rep>
+                    <!-- 본문 영역 -->
+                        <article>
+                            <div class="titleArea">
+                                <small>[##_article_rep_date_##]</small>
+                                <span class="title"><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></span>
+                                <s_ad_div>
+                                    <div class="admin">
+                                        <a href="[##_s_ad_m_link_##]" style="color: #F66D6D;">❤︎</a>
+                                        <a href="#" onclick="[##_s_ad_d_onclick_##]" style="color: #F6D275;">✦</a>
+                                    </div>
+                                </s_ad_div>
+                                
+                            </div>
+                            <div class="desc">
+                                <p>[##_article_rep_desc_##]</p>
+                            </div>
+                        </article>
+                    </s_permalink_article_rep>
+                    <!-- //본문 영역 -->
+                </s_article_rep>
+                <!-- 보호글 영역 -->
+                <s_article_protected>
+                    <article class="protect">
+                        <h2><a href="#">[##_article_rep_title_##]</a></h2>
+                        <span></span>
+                        <label for="[##_article_password_##]"><img src="./images/lock_2.png" alt="비밀글">
+                            <input type="password" id="[##_article_password_##]" placeholder="PASSWORD">
+                            <input type="button" id="[##_article_password_##]" class="submit" value="✿" onclick="[##_article_dissolve_##]">
+                        </label>
+                    </article>
+                </s_article_protected>
+                <!-- //보호글 영역 -->
+                <!-- 리스트 영역 -->
+                <s_list>
+                    <div class="postList">
+                        <s_list_rep>
+                            <ul>
+                                <li>
+                                    <a href="[##_list_rep_link_##]">
+                                    <s_list_rep_thumbnail>
+                                        <div class="thumb">
+                                            <img src="//i1.daumcdn.net/thumb/C200x200/?fname=[##_list_rep_thumbnail_##]">
+                                        </div>
+                                     </s_list_rep_thumbnail>
+                                        <span class="listTitle">[##_list_rep_title_##]</span>
+                                        <span class="listData">[##_list_rep_regdate_##]</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </s_list_rep>
+                    </div>
+                </s_list>
+                <!-- //리스트 영역 -->
+                <!-- 페이징 -->
+                <s_paging>
+                    <div class="paging">
+                      <a href="[##_prev_page_##]" class="[##_no_more_prev_##]">◀</a>
+                      <span class="numbox">
+                        <s_paging_rep>
+                          <a href="[##_paging_rep_link_##]" class="num">[[##_paging_rep_link_num_##]]</a>
+                        </s_paging_rep>
+                      </span>
+                      <a href="[##_next_page_##]" class="[##_no_more_next_##]">▶</a>
+                    </div>
+                  </s_paging>
+                <!-- //페이징 -->
             </div>
-            <!-- //댓글 영역 -->
-            <!-- 보호글 영역 -->
-            <article class="protect">
-                <h2><a href="#">보호글 타이틀(치환자)</a></h2>
-                <label for="">비밀번호 ::</label>
-                <input type="password">
-                <input type="button" value="ENTER">
-            </article>
-            <!-- //보호글 영역 -->
-            <!-- 페이징 -->
-            
-            <!-- //페이징 -->
+            <footer>
+                <div class="copy">
+                    <p>&copy;SERA</p>
+                </div>
+            </footer>
         </div>
-        <footer>
-            <div class="copy">
-                <p>&copy;SERA</p>
-            </div>
-        </footer>
-    </div>
+    </s_t3>
 </body>
 </html>
