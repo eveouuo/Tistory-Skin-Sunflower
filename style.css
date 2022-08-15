@@ -1,9 +1,77 @@
 @charset 'UTF-8';
 @font-face {
-    font-family: 'EarlyFontDiary';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+* {cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur268.cur), auto !important;}
+* {margin: 0; padding: 0; color: #898989; list-style: none; text-decoration: none; font-family: 'IBMPlexSansKR-Regular'; font-size: 12px;}
+*::selection {background-color: #DCAF3C; color: #fff;}
+.clearfix::after,.clearfix::before {display: block; clear: both; content: '';}
+::-webkit-scrollbar {width:5px; height:5px; background:transparent;}
+::-webkit-scrollbar-thumb {width: 5px; background-color: #F6D275; border-radius: 3px;}
 
-* {margin: 0; padding: 0; color: #777; list-style: none; text-decoration: none; font-family: 'EarlyFontDiary';}
+
+#wrap {width: 1000px; margin: 0 auto;}
+
+.title a:hover {color: #DCAF3C;}
+.desc {width: 850px; margin: 30px auto; margin-bottom: 10px;}
+
+/* header */
+header {width: 900px; height: 170px; margin: 0 auto; background: #fff; }
+header #headerAera .top {width: 400px; margin: 0 auto; padding: 25px 0; }
+header #headerAera .top img {display: block; width: 400px;}
+
+header .cate a {display: block; text-align: center; color: #F6D275; font-size: 14px; font-weight: bold;}
+
+/* content */
+#contentArea {width: 1000px; margin: 0 auto; overflow: auto; margin-bottom: 10px;}
+.content {width: 900px; margin: 30px auto; margin-bottom: 0;}
+
+.titleArea {width: 100%; display: block; border-bottom: 1px solid #898989; text-align: center; padding-bottom: 4px;}
+.r-Content > .desc {height: 440px; padding: 0 10px; overflow: auto;}
+
+.cl {position: relative;}
+#contentArea .content .titleArea .date {display: block; float: left; text-align: left; padding-left: 10px;}
+#contentArea .content .titleArea .title {display: block; width: 30%; margin: 0 auto;}
+#contentArea .content .titleArea .admin {position: absolute; right: 0; top: 0; display: block; float: right; text-align: right; padding-right: 10px;}
+
+/* protect */
+.protect {width: 500px; margin: 0 auto;}
+.protect .pro-C-Area {text-align: center; padding: 50px 0;}
+.protect img {width: 25px; vertical-align: middle;}
+.protect .titleArea h2.title a {display: block; width: 500px;}
+
+
+.space {border: 1px solid #F6D275; width: 150px; padding: 5px 10px; border-radius: 10px 0 10px 0; margin: 0 10px; vertical-align: middle;}
+::-webkit-input-placeholder {font-size: 14px; color: #F6D275; text-align: center;}
+
+.submit {padding: 0 15px; background-color: #F6D275; border: 1px solid #F6D275; color: #fff; font-size: 18px; vertical-align: middle; border-radius: 5px;}
+
+/* list */
+
+.postList {width: 900px; margin: 0 auto;}
+.postList .lst-Area {width: 900px; margin: 15px auto;}
+.postList .thumb-Area {width: 135px; height: 180px; float: left; padding: 0 5px; margin: 10px 14px; border: 1px solid #999;}
+.postList .thumb {display: block; }
+.postList .thumb .thumb-img {display: block;}
+.postList .thumb-Area a:hover .thumb-info span {display: block; color: #F6D275;}
+.postList .thumb img {display: block; width: 130px; margin: 5px auto; }
+.postList .thumb-Area .thumb-info span {display: block; text-align: center; width: 130px; margin: 0 auto;}
+.postList .thumb-Area .thumb-info .listTitle {display: block; font-size: 12px; padding-bottom: 2px;}
+.postList .thumb-Area .thumb-info .listData {display: block; font-size: 10px;}
+.postList .desc {width: 1000px; margin: 30px auto;}
+
+/* paging */
+.paging {text-align: center; padding: 5px 0;}
+.paging a {display: inline; font-size: 9px;}
+
+/* footer */
+
+footer {width: 1000px; margin: 0 auto;}
+footer .copy p {display: block; text-align: center; font-size: 5px;}
+
+
+
+
