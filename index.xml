@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+  <information>
+    <name>Sunflower</name>
+    <version>1.1</version>
+    <description>
+      <![CDATA[Sunflower]]>
+    </description>
+    <license>
+      <![CDATA[수정 및 배포 X]]>
+    </license>
+  </information>
+  <author>
+    <name>세라</name>
+    <homepage>x</homepage>
+    <email>lovelylove.eve@gmail.com</email>
+  </author>
+  <default>
+    <recentEntries>10</recentEntries>
+    <recentComments>0</recentComments>
+    <recentTrackbacks>0</recentTrackbacks>
+    <itemsOnGuestbook>0</itemsOnGuestbook>
+    <tagsInCloud>0</tagsInCloud>
+    <sortInCloud>0</sortInCloud>
+    <expandComment>0</expandComment>
+    <expandTrackback>0</expandTrackback>
+    <lengthOfRecentNotice>0</lengthOfRecentNotice>
+    <lengthOfRecentEntry>0</lengthOfRecentEntry>
+    <lengthOfRecentComment>0</lengthOfRecentComment>
+    <lengthOfRecentTrackback>0</lengthOfRecentTrackback>
+    <lengthOfLink>0</lengthOfLink>
+    <showListOnCategory>1</showListOnCategory>
+    <showListOnArchive>0</showListOnArchive>
+    <commentMessage>
+      <none>댓글이 없습니다.</none>
+      <single>댓글 &lt;span class="cnt"&gt;하나&lt;/span&gt; 달렸습니다.</single>
+    </commentMessage>
+    <trackbackMessage>
+      <none>받은 트랙백이 없고</none>
+      <single>트랙백이 &lt;span class="cnt"&gt;하나&lt;/span&gt;이고</single>
+    </trackbackMessage>
+    <tree>
+      <color>898989</color>
+      <bgColor>ffffff</bgColor>
+      <activeColor>DCAF3C</activeColor>
+      <activeBgColor>ffffff</activeBgColor>
+      <labelLength>27</labelLength>
+      <showValue>1</showValue>
+    </tree>
+    <contentWidth>500</contentWidth>
+  </default>
+</skin>
